@@ -1,0 +1,19 @@
+.container { 
+    max-width: 60rem; min-width: 45rem;
+    border:1px solid #ced4da; 
+    padding : 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #a5d6a7 !important;
+    box-shadow: 0 1px 0 0 #a5d6a7 !important
+}
+.input-field input[type=text]:focus + label { color: #a5d6a7; }

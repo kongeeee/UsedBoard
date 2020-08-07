@@ -1,0 +1,8 @@
+<%@ page contentType="text/html;charset=utf-8" %>
+<%
+//MySQL 연결을 위한 정보 설정
+String     dbstring = "jdbc:mysql://127.0.0.1/ezen?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
+String     user      = "root";
+String     pass      = "mySQL1234";
+%>
+<jsp:useBean id="myBoard" class="ezen.Board" scope="page"/>

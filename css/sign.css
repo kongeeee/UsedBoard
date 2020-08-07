@@ -1,0 +1,8 @@
+/* sign */
+.container {
+    border: none !important; 
+}
+.header-login { margin-top: 25rem; font-weight: bold;  }
+.header-sign { margin-top: 50%; font-weight: bold;  }
+.input-field .prefix.active { color: black; }
+.submit { margin-top: 1rem; }

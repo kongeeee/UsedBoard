@@ -1,0 +1,11 @@
+.header-login { margin-top: 25rem; font-weight: bold;  }
+.header-sign { margin-top: 50%; font-weight: bold;  }
+.row .input-field input:focus {
+    border-bottom: 1px solid #a5d6a7 !important;
+    box-shadow: 0 1px 0 0 #a5d6a7 !important
+}
+
+.container { border: none !important; }
+.input-field .prefix.active { color: black; }
+.input-field input[type=text]:focus + label { color: #a5d6a7; }
+.submit { margin-top: 1rem; }

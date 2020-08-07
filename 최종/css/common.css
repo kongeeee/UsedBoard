@@ -1,0 +1,96 @@
+@import "materialize.min.css";
+@import "icon.css";
+
+.container { 
+position: relative;
+max-width: 60rem; min-width: 45rem;
+border:1px solid #ced4da; 
+padding : 1rem;
+margin-top: 1rem;
+margin-bottom:15px;}
+.img { height: 100%; width: 100%; }
+img { max-width: 100%; }
+
+/* 로그인 */
+.middle{padding-bottom:20rem;}
+
+/*975*/
+@media (min-width: 45rem){
+}
+
+.comment-box { padding-top: 1rem; border-top: 1px solid lightgray; }
+.m1 { margin: 2rem 0 0 1rem; }
+
+/* card */
+.card-image { width: 200px; height: 200px; overflow: hidden; }
+.card { max-height: 200px; min-height: 200px; transition: transform 0.1s; }
+.card:hover { transform: scale(1.02); }
+.card-content { overflow: hidden; max-height: 145px; margin-bottom: 0px; }
+.card-content p { max-height: 65px; overflow: hidden; text-overflow: ellipsis; }
+
+.pagination{
+    margin-top: 25px;
+}
+
+/* index */
+#writer, #view { padding-right: 20px; }
+.search-box { margin: 0px; }
+
+.select {
+    height: 100%;
+    background-color: #66bb6a;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* select */
+.select-box {
+    padding: 7rem 1rem 7rem 1rem;
+    background-color: white;
+}
+
+/* border : 15rem solid #66bb6a; */
+.select-btn { margin: 20px;
+    background-color: #43a047;
+}
+
+.select-btn:hover {
+    background-color: #66bb6a;
+  }
+
+/* sign */
+.header-login { margin-top: 25rem; font-weight: bold;  }
+.header-sign { margin-top: 15rem; font-weight: bold;  }
+.row .input-field input:focus {
+    border-bottom: 1px solid #a5d6a7 !important;
+    box-shadow: 0 1px 0 0 #a5d6a7 !important
+}
+.submit { margin-top: 1rem; }
+
+/* write */
+.tabs .tab a:focus.active { background-color: #dcedc8; }
+.tabs .tab a:hover { background-color:#eee; color:#000; } 
+.tabs .indicator { background-color: #81c784; } /* Color of underline */
+.tabs .tab a.active { background-color:#c8e6c9; color:#81c784; }
+.mt2 { margin-top: 2rem; }
+textarea{ width:100%; height:auto; font-size: 20px; }
+.btn{ margin-top:0.8rem; }
+.line{ border : solid 1px #ced4da; }
+#content { margin-top: 2.5rem; border : solid 1px #ced4da; }
+
+#img_box{
+    margin-top: 2.5rem;
+    min-width: 6.8rem;
+    min-height: 6.8rem;
+    padding: 0;
+    border : solid 1px #ced4da;
+    text-align: center;
+    line-height: 0.1rem;
+}
+
+.linetop {
+    border-top : solid 1px #ced4da;
+    border-bottom : solid 1px #ced4da;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
